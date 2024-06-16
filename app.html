@@ -4,32 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
     <title>Ball Bouncing Simulation</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background: #f0f0f0;
-        }
-
-        canvas {
-            border: 1px solid black;
-            background: white;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="ball size">
-        <input type="range" min="10" max="30" value="15" class="slider" id="size">
-      </div>
-    <div class="ball amount">
-        <input type="range" min="10" max="70" value="25" class="slider" id="amount">
-      </div>
-    <button id="start">press</button>
+    <div class="mainDiv">
+        <h1>Ball Bouncing Simulation</h1>
+        <div class="ballsize">
+            <h3>Ball Size</h3>
+            <input type="range" min="10" max="30" value="15" class="slider" id="size">
+        </div>
+        <div class="ballamount">
+            <h3>Ball Amount</h3>
+            <input type="range" min="10" max="70" value="25" class="slider" id="amount">
+        </div>
+        <button id="start">press</button>
+    </div>
     <canvas id="simulationCanvas" width="800" height="600"></canvas>
     <script src="ballBouncing.js"></script>
     <!-- <script>

@@ -1,0 +1,31 @@
+body {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+}
+
+canvas {
+    border: 1px solid black;
+    background: white;
+}
+.mainDiv{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0f0f0;
+}
+.ballsize{
+
+}
+.ballamount{
+
+}
+#start{
+    font-size: 20px;
+     /* background-color: blue;  */
+    border-radius: 5px;
+}
